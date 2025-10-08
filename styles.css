@@ -623,7 +623,7 @@ input[type=submit]:focus {
     select the second div in the more styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-#more div div {
+#more > div > div {
     width: 250px;
     height: 250px;
     background-color: var(--dv-orange);
@@ -647,7 +647,7 @@ input[type=submit]:focus {
     select the fourth div in the pseudo-class styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-{
+#more .third > div {
     width: 150px;
     height: 150px;
     background-color: var(--dv-mint);
@@ -659,7 +659,7 @@ input[type=submit]:focus {
     select the last div in the more styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-{
+#more .inner {
     width: 100px;
     height: 100px;
     background-color: var(--dv-lt-blue);
